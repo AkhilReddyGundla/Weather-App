@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-quries.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="search-bar">
+          <input
+            type="text"
+            placeholder="Enter city"
+            class="text-area"
+            id="cityInput"
+          />
+          <button type="submit" class="search-btn">Search</button>
+        </div>
+
+        <div class="big-text-temp">
+          <div class="big-text">
+            <div class="temparature">
+              <span class="current-temp">100</span>&deg<span class="celsius"
+                >C</span><span class="slash">/</span><span class="fahrenheit">F</span>
+                <div class="minmax">
+                  <span class="loncationImg"
+                    ><img
+                      src="images/location.png"
+                      alt="location-img"
+                      class="location-icon"
+                  /></span>
+                  <span class="location"></span> <span class="day"></span
+                  ><span id="minTemp" class="temp"></span> /
+                  <span id="maxTemp" class="temp"></span>
+                </div>
+            </div>
+          </div>
+          <div class="description-box">
+            <div class="content">
+              <div class="current-day"></div>
+            </div>
+          </div>
+          <div class="des">
+            <div class="content">
+              <div class="short-description"></div>
+            </div>
+          </div>
+        </div>
+        <div class="middle-part">
+          <div class="future-temp">
+            <div class="day1">
+              <div class="date1"></div>
+              <div class="icon1"></div>
+              <div class="weather1"></div>
+              <div class="day-temp1"></div>
+            </div>
+            <div class="day2">
+              <div class="date2"></div>
+              <div class="icon2"></div>
+              <div class="weather2"></div>
+              <div class="day-temp2"></div>
+            </div>
+            <div class="day3">
+              <div class="date3"></div>
+              <div class="icon3"></div>
+              <div class="weather3"></div>
+              <div class="day-temp3"></div>
+            </div>
+            <div class="day4">
+              <div class="date4"></div>
+              <div class="icon4"></div>
+              <div class="weather4"></div>
+              <div class="day-temp4"></div>
+            </div>
+            <div class="day5">
+              <div class="date5"></div>
+              <div class="icon5"></div>
+              <div class="weather5"></div>
+              <div class="day-temp5"></div>
+            </div>
+            <div class="day6">
+              <div class="date6"></div>
+              <div class="icon6"></div>
+              <div class="weather6"></div>
+              <div class="day-temp6"></div>
+            </div>
+            <div class="day7">
+              <div class="date7"></div>
+              <div class="icon7"></div>
+              <div class="weather7"></div>
+              <div class="day-temp7"></div>
+            </div>
+            <div class="day8">
+              <div class="date8"></div>
+              <div class="icon8"></div>
+              <div class="weather8"></div>
+              <div class="day-temp8"></div>
+            </div>
+          </div>
+          <div class="other-details">
+            <div class="feelss-like">
+              <div>
+                <img
+                  src="images/temperature-icon.png"
+                  alt="Temperature Image"
+                  class="icon"
+                />
+              </div>
+              <div class="name">Feels like</div>
+              <div class="temp-value value"></div>
+            </div>
+            <div class="sunshine-sunset">
+              <div>
+                <img src="images/sun.png" alt="Sun Image" class="icon" />
+              </div>
+              <div class="name"></div>
+              <div class="sunrise value"></div>
+              <div class="sunset value"></div>
+            </div>
+            <div class="wind">
+              <div>
+                <img src="images/wind.png" alt="Wind Img" class="icon" />
+              </div>
+              <div class="wind-name"></div>
+              <div class="wind-value value"></div>
+            </div>
+            <div class="humidity">
+              <div>
+                <img
+                  src="images/humidity.png"
+                  alt="Humidity Image"
+                  class="icon"
+                />
+              </div>
+              <div class="name">Humidity</div>
+              <div class="humidity-value value"></div>
+            </div>
+            <div class="uv">
+              <div><img src="images/uv.png" alt="UV Image" class="icon" /></div>
+              <div class="name">UV</div>
+              <div class="uv-value value"></div>
+            </div>
+            <div class="air-pressure">
+              <div>
+                <img
+                  src="images/air-pressure.jpg"
+                  alt="Pressure Image"
+                  class="icon"
+                />
+              </div>
+              <div class="name">Air pressure</div>
+              <div class="pressure-value value"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

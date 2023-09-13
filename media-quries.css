@@ -1,0 +1,105 @@
+@media screen and (max-width: 1024px) {
+    
+    .temparature{
+        font-size: 6rem;
+    }
+    .current-day{
+        font-size: 0.9rem;
+        padding: 20px;
+    }
+    .future-temp{
+        width: 50%;
+    }
+    .des{
+        padding: 20px;
+    }
+    .big-text-temp{
+        gap: 20px;
+    }
+    .minmax{
+        font-size: 1rem;
+    }
+    .short-description{
+        font-size: 1rem;
+    }
+    .location-icon{
+        width: 15px;
+        height: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .search-bar{
+        width: 50%;
+    }
+    .temparature{
+        font-size: 5rem;
+    }
+    .celsius,.fahrenheit{
+        font-size: 1.2rem;
+    }
+    .middle-part{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .future-temp{
+        margin: auto;
+        width: 60%;
+    }
+    .other-details{
+        margin-left: 20px;
+        width: 40%;
+        /* margin: auto; */
+    }
+}
+@media screen and (max-width: 426px) {
+    .search-bar{
+        width: 90%;
+    }
+    .big-text-temp{
+        flex-direction: column;
+        margin: auto;
+    }
+    .big-text{
+        margin: auto;
+        width: 80%;
+    }
+    .temparature{
+        font-size: 4.5rem;
+        margin: auto;
+        justify-content: center;
+    }
+    .minmax{
+        font-size: 0.9rem;
+    }
+    .description-box,.content{
+        width: 100%;
+    }
+    .future-temp{
+        padding: 15px;
+        font-size: 0.8rem;
+        width: 80%;
+    }
+    .day1,.day2,.day3,.day4,.day5,.day6,.day7,.day8{
+        gap: 10px;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .weather1,.weather2,.weather3,.weather4,.weather5,.weather6,.weather7,.weather8{
+        margin: auto;
+        margin-left: 20px;
+    }
+    .other-details{
+        margin: auto;
+        width: 100%;
+        column-gap: 0px;
+    }
+    .feelss-like, .humidity, .uv, .air-pressure, .sunshine-sunset, .sunshine,.wind{
+        height: 120px;
+        width: 120px;
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+    icon{
+        width: 40px;
+    }
+}

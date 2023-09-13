@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    /* border: 1px solid red; */
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.search-bar{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+.text-area{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    outline: none;
+    border: 0;
+    width: 100%;
+}
+.search-btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    outline: none;
+    border: 1px black;
+    cursor: pointer;
+    background: none;
+}
+.big-text{
+    width: 35%;
+    margin-top: 40px;
+    /* align-items: center; */
+}
+.big-text-temp{
+    display: flex; 
+    align-items: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+.location-icon{
+    width: 20px;
+    height: 25px;
+}
+.location{
+    text-transform: capitalize;
+}
+.slash{
+    font-size: 1rem;
+}
+.celsius,.fahrenheit{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.celsius{
+    font-weight: bold;
+    color: black;
+}
+.temparature{
+    font-size: 7rem;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+.description-box{
+    width: 75%;
+    /* align-items: center; */
+    margin: auto;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.current-day{
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.des{
+   padding: 25px;
+   border-radius: 20px;
+   font-size: 1.5rem;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid gray;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+.short-description{
+    justify-content: center;
+}
+.minmax{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.middle-part{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.future-temp{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 30%;
+    border: 1px solid gray;
+    padding: 40px;
+    border-radius: 20px;
+}
+.day1,.day2,.day3,.day4,.day5,.day6,.day7,.day8{
+    display: flex;
+    gap: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.date1,.date2,.date3,.date4,.date5,.date6,.date7,.date8{
+    width: 30%;
+}
+.icon1,.icon2,.icon3,.icon4,.icon5,.icon6,.icon7,.icon8{
+    width: 10%;
+}
+.weather1,.weather2,.weather3,.weather4,.weather5,.weather6,.weather7,.weather8{
+    width: 25%;
+}
+.day-temp1,.day-temp2,.day-temp3,.day-temp4,.day-temp5,.day-temp6,.day-temp7,.day-temp8{
+    width: 35%;
+}
+.other-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Changed from 0fr to 1fr for equal width */
+    column-gap: 10px;
+    row-gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    height: fit-content;
+  }
+  
+  .feelss-like, .humidity, .uv, .air-pressure, .sunshine-sunset, .sunshine,.wind{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 20px;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  .icon{
+    width: 45px;
+  }
+.feela-like{
+    display: flex;
+}
+.value{
+    font-size: 1rem;
+}
