@@ -8,17 +8,22 @@
     <link rel="stylesheet" href="media-quries.css" />
   </head>
   <body>
-    <main>
+    <header>
+      <div class="main-nav">
+          <h2>Weather App</h2>
+      </div>
+  </header>
+    <main class="main">
+      <div class="search-bar">
+        <input
+          type="text"
+          placeholder="Enter city"
+          class="text-area"
+          id="cityInput"
+        />
+        <button type="submit" class="search-btn">Search</button>
+      </div>
       <div class="container">
-        <div class="search-bar">
-          <input
-            type="text"
-            placeholder="Enter city"
-            class="text-area"
-            id="cityInput"
-          />
-          <button type="submit" class="search-btn">Search</button>
-        </div>
 
         <div class="big-text-temp">
           <div class="big-text">
@@ -158,6 +163,38 @@
         </div>
       </div>
     </main>
+    <footer class="main-footer">
+      <div class="footer-container">
+          <div class="upper-container">
+              <div class="left-text">
+                  <h2 class="myName">akhil reddy gundla</h2>
+                  <p class="aboutMe">A Final year undergraduate student looking for development roles in Software Industry.</p>
+              </div>
+              <div class="right-text-footer">
+                  <h2 class="socials-heading">
+                      <span>Social</span>
+                  </h2>
+                  <div class="footer-socials">
+                          <a href="https://www.linkedin.com/in/akhil-reddy-01a467201/" class="social-icon-link" target="_blank">
+                          <img src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png" alt="Akhil Linkedin Profile" class="footer-social-icon">
+                          </a>
+                          </a>
+                          <a href="https://github.com/AkhilReddyGundla" class="social-icon-link" target="_blank">
+                          <img src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png" alt="Akhil twitter profile" class="footer-social-icon">
+                          </a>
+                          <a href="https://twitter.com/akhilreddy06" class="social-icon-link" target="_blank">
+                          <img src="https://d33wubrfki0l68.cloudfront.net/ef67339f7016cb09ba66366c1dc9145ac69f2a21/feca1/assets/png/twitter-ico.png" alt="Akhil Github Profile" class="footer-social-icon">
+                          </a>
+                  </div>
+              </div>
+          </div>
+          <div class="lower-container">
+              &copy; Copyright
+              <script>document.write(new Date().getFullYear())</script>. Made by <a href="https://akhilreddygundla.github.io/portifolio-website-by-Akhil/" target="_blank" class="my-link"> Akhil</a>
+              </div>
+          </div>
+      </div>
+  </footer>
   </body>
   <script src="script.js"></script>
 </html>
