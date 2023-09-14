@@ -46,9 +46,9 @@
         width: 60%;
     }
     .other-details{
-        margin-left: 20px;
-        width: 40%;
-        /* margin: auto; */
+        width: 60%;
+        margin: auto;
+        row-gap: 20px;
     }
 }
 @media screen and (max-width: 426px) {
@@ -99,7 +99,19 @@
         padding: 10px;
         font-size: 0.8rem;
     }
-    icon{
-        width: 40px;
+    .upper-container{
+        flex-direction: column;
+    }
+    .right-text-footer{
+        order: 2;
+    }
+    .left-text{
+        order: 1;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    .myName{
+        font-size: 1.5rem;
     }
 }
