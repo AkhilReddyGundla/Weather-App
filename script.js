@@ -6,7 +6,8 @@ const dayField = document.querySelector('.day');
 const currentDayDescription = document.querySelector('.current-day');
 const shortField = document.querySelector('.short-description');
 const locationField = document.querySelector('.location');
-
+const container = document.querySelector('.container');
+const footer = document.querySelector('.footer-container')
 let tempC = document.querySelector(".celsius");
 const tempF = document.querySelector(".fahrenheit");
 const date0 = document.querySelector(".date1");
@@ -57,8 +58,9 @@ let windValueField = document.querySelector(".wind-value");
 let humidityValueField = document.querySelector(".humidity-value");
 let pressureValueField = document.querySelector(".pressure-value");
 let uvFieldValue = document.querySelector('.uv-value');
-
 async function getdata(area) {
+  container.style='display: block';
+  footer.style='display: block';
   let url =
     "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/";
   url += `${area}?unitGroup=metric&include=current&key=UNV4XAT5M9HHZ9X24HRLUNZA9&contentType=json`;
