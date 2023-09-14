@@ -4,13 +4,25 @@ body{
     padding: 0;
     margin: 0;
 }
+header{
+    font-family: 'Poppins', sans-serif;
+    position:fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding:0.4rem 1rem;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.2);
+    font-weight: 400;
+} 
 .container{
-    /* border: 1px solid red; */
+    display: none;
     margin-left: 2%;
     margin-right: 2%;
 }
 .search-bar{
-    margin-top: 50px;
+    margin-top: 130px;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
@@ -79,7 +91,9 @@ body{
     justify-content: center;
     /* gap: 10px; */
 }
-
+.main{
+    margin-bottom: 40px;
+}
 .current-day{
     font-size: 1.1rem;
     font-family: 'Poppins', sans-serif;
@@ -166,4 +180,59 @@ body{
 }
 .value{
     font-size: 1rem;
+}
+.footer-container{
+    display: none;
+    margin-left: 4%;
+    margin-right:4%;
+}
+.main-footer{
+    background-color: #111;
+    color: #fff;
+}
+.upper-container{
+    /* width: 100%; */
+    /* max-width: 120rem; */
+    display: flex;
+    justify-content:  space-between;
+    gap:4px;
+    padding: 40px 0;
+    border-bottom: 1px solid rgb(255, 254, 254);
+}
+
+.myName{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+}
+.aboutMe{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* margin-top: 2rem; */
+    color: #eee;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+.socials-heading{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    /* margin-bottom: 2rem; */
+    /* padding-left: ; */
+}
+.right-text-footer{
+    
+    width: max-content;
+}
+.footer-social-icon{
+    width: 2.5rem;
+    margin-right: 10px;
+    margin:1px;
+}
+.lower-container{
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
